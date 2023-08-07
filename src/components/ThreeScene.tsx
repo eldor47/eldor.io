@@ -17,7 +17,7 @@ const ThreeScene = () => {
       if (cubeGroupRef.current) {
         const scrollY = window.scrollY;
         //const rotationY = (scrollY / window.innerHeight) * Math.PI * 3;
-        const rotationX = (scrollY / window.innerHeight) * Math.PI * 2.5;
+        const rotationX = (scrollY / window.innerHeight) * Math.PI * 2.1;
 
         //cubeGroupRef.current.rotation.y = rotationY;
         cubeGroupRef.current.rotation.x = rotationX;
