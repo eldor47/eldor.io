@@ -49,12 +49,12 @@ const ThreeScene = () => {
         </Environment>
 
         <group ref={cubeGroupRef}>
-          <Stars depth={10}></Stars>
+          <Stars></Stars>
           <Model scale={[100, 100, 100]} rotation={[89.3,0,0]}></Model>
         </group>
 
 
-        <OrbitControls enableZoom={false}/>
+        {/* <OrbitControls enableZoom={false}/> */}
       </Canvas>
     </div>
   );
