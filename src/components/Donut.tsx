@@ -12,7 +12,7 @@ export default function Model(props:any) {
   return (
     <group ref={groupRef} {...props} dispose={null}>
       {/* <primitive scale={[0.12, 0.12, 0.12]} object={gltf.scene} /> */}
-      <mesh geometry={nodes.Curve.geometry}>
+      <mesh geometry={nodes?.Curve?.geometry}>
       <meshStandardMaterial color="#673ab7" roughness={0} metalness={.8} />
     </mesh>
     </group>
