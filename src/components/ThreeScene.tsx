@@ -54,7 +54,7 @@ const ThreeScene = () => {
         </group>
 
 
-        <OrbitControls enableZoom={false} />
+        <OrbitControls enableZoom={false}/>
       </Canvas>
     </div>
   );
