@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Model(props:any) {
   const groupRef = useRef()
-  const {nodes} = useGLTF('./eldorgltf.gltf') as any
+  const {nodes} = useGLTF('https://d1p4mlqbo0vzy7.cloudfront.net/eldorgltf.gltf') as any
 
   return (
     <group ref={groupRef} {...props} dispose={null}>
@@ -19,4 +19,4 @@ export default function Model(props:any) {
   )
 }
 
-useGLTF.preload('./eldorgltf.gltf')
+useGLTF.preload('https://d1p4mlqbo0vzy7.cloudfront.net/eldorgltf.gltf')

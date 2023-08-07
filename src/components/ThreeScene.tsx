@@ -4,7 +4,7 @@ import { Box, Environment, Lightformer, Stars, useGLTF } from '@react-three/drei
 import { OrbitControls } from '@react-three/drei';
 import { Group } from 'three';
 import { easing } from 'maath'
-import Model from './Donut';
+import Model from './EldorModel';
 
 const ThreeScene = () => {
   const cubeGroupRef = useRef<Group | null>(null);
@@ -49,6 +49,7 @@ const ThreeScene = () => {
         </Environment>
 
         <group ref={cubeGroupRef}>
+          <Stars depth={10}></Stars>
           <Model scale={[100, 100, 100]} rotation={[89.3,0,0]}></Model>
         </group>
 
