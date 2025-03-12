@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         {/* Projects Section */}
         <section
           id="projects"
-          className="py-32 px-8"
+          className="py-32 px-64"
           style={{ backgroundColor: '#35304b' }}
         >
           <motion.h2
