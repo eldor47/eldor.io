@@ -81,7 +81,7 @@ const Home: React.FC = () => {
             transition={{ delay: 0.5, duration: 1.5, ease: 'easeOut' }}
             className="mt-4 text-lg text-gray-300"
           >
-            I'm an engineer crafting sleek and intuitive experiences. Check out my{' '}
+            I am an engineer crafting sleek and intuitive experiences. Check out my{' '}
             <a
               href="https://github.com/eldor47"
               target="_blank"
