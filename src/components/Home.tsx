@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         {/* Hero Section */}
         <section
           id="home"
-          className="min-h-screen flex flex-col items-center justify-center"
+          className="min-h-screen flex flex-col items-center justify-center text-center p-4"
           style={{ backgroundColor: 'var(--background-color)' }}
         >
           <motion.h1
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
         {/* Projects Section */}
         <section
           id="projects"
-          className="py-32 px-64"
+          className="py-32 px-4 md:px-64"
           style={{ backgroundColor: '#35304b' }}
         >
           <motion.h2
