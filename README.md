@@ -26,3 +26,23 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+## Repo Context Docs
+
+Project-specific docs live in `docs/context/`:
+
+- Start at `docs/context/index.md`
+- Architecture: `docs/context/architecture.md`
+- Stack: `docs/context/stack.md`
+- Dev guide: `docs/context/dev.md`
+- Conventions: `docs/context/conventions.md`
+- Routes: `docs/context/routes.md`
+- Assets: `docs/context/assets.md`
+- Decisions: `docs/context/decisions.md`
+- Tasks: `docs/context/tasks.md`
+
+Scripts
+
+- `npm run dev` — start dev server
+- `npm run lint` — ESLint checks
+- `npm run format` / `format:check` — Prettier write/check

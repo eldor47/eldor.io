@@ -1,12 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-interface Project {
-  title: string;
-  description: string;
-  imageUrl: string;
-  link: string;
-}
+import Image from 'next/image';
+import type { Project } from '~/types/project';
 
 interface ProjectCardProps {
   project: Project;
@@ -21,13 +16,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      whileHover={{ scale: 1.05 }}
-      className="block rounded-lg overflow-hidden shadow-lg bg-[#1A1323] hover:shadow-xl transition-shadow min-h-[400px]"
+      whileHover={{ y: -6, scale: 1.01 }}
+      className="block rounded-xl overflow-hidden bg-[#1A1323]/80 backdrop-blur glow-border transition-all min-h-[420px] hover:shadow-[0_20px_60px_rgba(107,70,193,0.25)]"
     >
-      <img src={project.imageUrl} alt={project.title} className="w-full h-64 object-cover" />
-      <div className="p-4">
-        <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
-        <p className="text-gray-300">{project.description}</p>
+      <Image
+        src={project.imageUrl}
+        alt={project.title}
+        width={1200}
+        height={768}
+        className="w-full h-64 object-cover"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      />
+      <div className="p-5">
+        <h3 className="text-xl font-bold mb-2 text-white tracking-wide">{project.title}</h3>
+        <p className="text-white/80">{project.description}</p>
       </div>
     </motion.a>
   );
