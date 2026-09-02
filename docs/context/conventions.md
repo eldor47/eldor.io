@@ -30,4 +30,3 @@ Accessibility & SEO
 
 - Provide descriptive `alt` text for images.
 - Use Next.js `<Head>` for titles/metadata per route.
-

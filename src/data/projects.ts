@@ -1,2 +1,1 @@
-export { gameDevProjects as projects } from "~/data/siteContent";
-
+export { featuredVideos as projects } from "~/data/siteContent";

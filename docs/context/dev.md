@@ -31,7 +31,7 @@ Git hooks (optional)
 
 Typical Flow
 
-1) Edit components in `src/components/*`
-2) Style with Tailwind + globals
-3) Verify in browser; iterate
-4) Keep docs in `docs/context/*` updated alongside changes
+1. Edit components in `src/components/*`
+2. Style with Tailwind + globals
+3. Verify in browser; iterate
+4. Keep docs in `docs/context/*` updated alongside changes

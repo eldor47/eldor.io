@@ -26,4 +26,3 @@ What’s Here
 - tasks.md: backlog and next steps
 
 Tip: Keep docs short and practical. Update alongside code changes.
-

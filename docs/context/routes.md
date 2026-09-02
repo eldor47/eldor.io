@@ -1,8 +1,9 @@
 # Routes
 
 - `/` (Home)
-  - Sections: `#home`, `#projects`, `#contact`
+  - Sections: `#home`, `#shorts`, `#videos`, `#links`
   - Navbar anchors scroll to sections
-
-No API routes or dynamic pages currently present.
-
+- `/api/mcsr`
+  - Cached server-side proxy for the public `eldooor` MCSR Ranked profile
+- `/api/skin` and `/api/cape`
+  - Proxied Mojang textures for the 3D skin viewer
