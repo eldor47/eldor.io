@@ -19,46 +19,46 @@ export interface FeaturedVideo {
 
 export const featuredVideos: FeaturedVideo[] = [
   {
-    id: "Grl-7al_lJ8",
-    title: "I Was Coached By A Pro Player",
+    id: "Q7Q5EDtjedo",
+    title: "Minecraft Speedrunning | Frog — Oct 1",
     type: "Video",
   },
   {
-    id: "sCaBBWwhdCY",
-    title: "Feinberg Reacts to My Zero Cycle",
+    id: "4XKUXcIhQXY",
+    title: "Minecraft Dungeons II Release!",
     type: "Video",
   },
   {
-    id: "9WT1ZoyxfQc",
-    title: "Hardcore, But I Lose Health Every Second...",
+    id: "N-aPqMiGWdU",
+    title: "Minecraft Speedrunning | Frog — Sep 30",
     type: "Video",
   },
   {
-    id: "iYLvnMUZWUA",
-    title: "I Beat Minecraft in 15 Minutes",
+    id: "xFL1_7xH1FE",
+    title: "Minecraft Speedrunning | Frog — Sep 29",
     type: "Video",
   },
 ];
 
 export const featuredShorts: FeaturedVideo[] = [
   {
-    id: "NHd0MLjOtIs",
-    title: "Minecraft but Everything Is Frogs",
+    id: "nEoIPf_XHfo",
+    title: "How to Get Aurora Cape",
     type: "Short",
   },
   {
-    id: "Z83uzBKsfn0",
-    title: "New Ranked PB",
+    id: "mM7kXKiXkzE",
+    title: "The Sift Dimension Bunny Is Evil",
     type: "Short",
   },
   {
-    id: "TzEIwSAKHmA",
-    title: "Easy Speedrun Lava Trick",
+    id: "xZWEoS2lXbE",
+    title: "I Added Moon Gravity to Minecraft Speedrunning",
     type: "Short",
   },
   {
-    id: "8RoJWFcXiyk",
-    title: "New Ranked PBs",
+    id: "W8GOosh73FY",
+    title: "Failing Sub 10 Minute Speedrun",
     type: "Short",
   },
 ];
