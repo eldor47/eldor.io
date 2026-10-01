@@ -19,23 +19,23 @@ export interface FeaturedVideo {
 
 export const featuredVideos: FeaturedVideo[] = [
   {
-    id: "Q7Q5EDtjedo",
-    title: "Minecraft Speedrunning | Frog — Oct 1",
+    id: "_9SFFYoc36I",
+    title: "I Added Moon Gravity to Minecraft Speedrunning",
     type: "Video",
   },
   {
-    id: "4XKUXcIhQXY",
-    title: "Minecraft Dungeons II Release!",
+    id: "PEGdt4jXkdI",
+    title: "Minecraft Chained Together with My Brother Broke Me...",
     type: "Video",
   },
   {
-    id: "N-aPqMiGWdU",
-    title: "Minecraft Speedrunning | Frog — Sep 30",
+    id: "Grl-7al_lJ8",
+    title: "I Was Coached By A Pro Player",
     type: "Video",
   },
   {
-    id: "xFL1_7xH1FE",
-    title: "Minecraft Speedrunning | Frog — Sep 29",
+    id: "sCaBBWwhdCY",
+    title: "Feinberg Reacts to My Zero Cycle",
     type: "Video",
   },
 ];
