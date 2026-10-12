@@ -7,6 +7,7 @@ export default function Document() {
         <meta name="theme-color" content="#07130b" />
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />
         <link rel="preconnect" href="https://i.ytimg.com" />
+        <link rel="preconnect" href="https://www.tiktok.com" />
       </Head>
       <body>
         <Main />

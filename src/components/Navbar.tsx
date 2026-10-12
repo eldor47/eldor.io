@@ -28,6 +28,7 @@ const Navbar: React.FC = () => {
         </a>
         <div className="flex items-center gap-6">
           <LinkItem href="#shorts">Shorts</LinkItem>
+          <LinkItem href="#tiktok">TikTok</LinkItem>
           <LinkItem href="#videos">Videos</LinkItem>
           <LinkItem href="#links">Links</LinkItem>
         </div>

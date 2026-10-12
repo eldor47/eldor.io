@@ -17,7 +17,22 @@ export interface FeaturedVideo {
   type: "Video" | "Short";
 }
 
+export interface FeaturedTikTok {
+  id: string;
+  title: string;
+}
+
 export const featuredVideos: FeaturedVideo[] = [
+  {
+    id: "geoT1Gus6jo",
+    title: "We Speedran Minecraft's Most Cursed Seed",
+    type: "Video",
+  },
+  {
+    id: "ORZ0bh2wreo",
+    title: "Minecraft Speedrun, But TNT Keeps Falling On Me",
+    type: "Video",
+  },
   {
     id: "_9SFFYoc36I",
     title: "I Added Moon Gravity to Minecraft Speedrunning",
@@ -28,22 +43,22 @@ export const featuredVideos: FeaturedVideo[] = [
     title: "Minecraft Chained Together with My Brother Broke Me...",
     type: "Video",
   },
-  {
-    id: "Grl-7al_lJ8",
-    title: "I Was Coached By A Pro Player",
-    type: "Video",
-  },
-  {
-    id: "sCaBBWwhdCY",
-    title: "Feinberg Reacts to My Zero Cycle",
-    type: "Video",
-  },
 ];
 
 export const featuredShorts: FeaturedVideo[] = [
   {
-    id: "nEoIPf_XHfo",
-    title: "How to Get Aurora Cape",
+    id: "s_298xez4u0",
+    title: "Eldor x Sorvnt 1v1 Battle",
+    type: "Short",
+  },
+  {
+    id: "oab8a5fB2mY",
+    title: "Biggest Speedrun Fumble",
+    type: "Short",
+  },
+  {
+    id: "AUb8lFmkBl8",
+    title: "Minecraft Speedrun, But TNT Keeps Falling On Me",
     type: "Short",
   },
   {
@@ -51,14 +66,23 @@ export const featuredShorts: FeaturedVideo[] = [
     title: "The Sift Dimension Bunny Is Evil",
     type: "Short",
   },
+];
+
+export const featuredTikToks: FeaturedTikTok[] = [
   {
-    id: "xZWEoS2lXbE",
-    title: "I Added Moon Gravity to Minecraft Speedrunning",
-    type: "Short",
+    id: "7695903556221619487",
+    title: "Can These Speedrunners Beat This Cursed Seed?",
   },
   {
-    id: "W8GOosh73FY",
-    title: "Failing Sub 10 Minute Speedrun",
-    type: "Short",
+    id: "7694766536908623134",
+    title: "New PB, But Not a Sub 10",
+  },
+  {
+    id: "7694751690850897183",
+    title: "1v1 with Shaun Highlights",
+  },
+  {
+    id: "7690858555209043230",
+    title: "The New Aurora Cape Looks Amazing",
   },
 ];

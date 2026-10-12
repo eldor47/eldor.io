@@ -33,7 +33,7 @@ const VideoCard = ({ video }: { video: FeaturedVideo }) => {
           >
             <Image
               src={thumbSrc}
-              alt=""
+              alt={`${video.title} by eldor`}
               fill
               sizes={
                 isShort

@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-xs font-semibold uppercase tracking-[0.32em] text-lime-300"
         >
-          eldor
+          eldor.io
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 18 }}
@@ -30,15 +30,17 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
           className="mt-3 text-4xl font-black tracking-tight text-white md:text-5xl"
         >
-          MCSR Ranked
+          eldor
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.16 }}
-          className="mt-3 text-white/70"
+          className="mx-auto mt-3 max-w-2xl text-white/70"
         >
-          Peaked Emerald 3
+          Official site of eldor, a Minecraft speedrunner and MCSR Ranked
+          creator. IGN <span className="text-white">eldooor</span>. Peak rank
+          Emerald 3.
         </motion.p>
 
         <motion.div
@@ -49,14 +51,14 @@ const Hero: React.FC = () => {
         >
           <Image
             src="/emotes/smile.png"
-            alt=""
+            alt="eldor smile emote"
             width={64}
             height={64}
             className="absolute -left-8 top-4 hidden h-16 w-16 -rotate-12 rounded-2xl border border-white/15 bg-[#0b1c12]/80 object-cover p-1 shadow-[0_12px_30px_rgba(0,0,0,0.28)] xl:block"
           />
           <Image
             src="/emotes/wow.png"
-            alt=""
+            alt="eldor wow emote"
             width={64}
             height={64}
             className="absolute -right-8 bottom-8 hidden h-16 w-16 rotate-[11deg] rounded-2xl border border-white/15 bg-[#0b1c12]/80 object-cover p-1 shadow-[0_12px_30px_rgba(0,0,0,0.28)] xl:block"
